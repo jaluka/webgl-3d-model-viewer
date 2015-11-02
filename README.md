@@ -1,6 +1,6 @@
 #warning - this is an old project#
 
-This was my first attempt at WebGL, and a lot of the design and code is sub-optimal. I would do it differently now if I were to start again - there's no reason to load meshes from JSON when you can load from Obj, for example - that's just an extra step in the pipeline that you can do away with. Since I wrote this the glTF format has come out, which is a better general mesh format for WebGL, with animation support.
+This was my first attempt at WebGL, and a lot of the design and code is sub-optimal. I would do it differently now if I were to start again - there's no reason to load meshes from JSON when you can load from Obj, for example - that's just an extra step in the pipeline that you can do away with. Since I wrote this the glTF format has come out, which is a better general mesh format for WebGL, with animation support. I've also designed my own mesh format supporting animations, for which I have a webgl viewer.
 
 webgl-3d-model-viewer
 =====================
